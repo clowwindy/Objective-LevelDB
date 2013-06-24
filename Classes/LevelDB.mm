@@ -154,6 +154,7 @@ static NSNotificationCenter * _notificationCenter;
         
         if(!status.ok()) {
             NSLog(@"Problem creating LevelDB database: %s", status.ToString().c_str());
+            return nil;
         }
     }
     
