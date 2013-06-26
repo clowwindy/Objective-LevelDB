@@ -1,0 +1,2 @@
+#define OS_MACOSX
+#define LEVELDB_PLATFORM_POSIX
