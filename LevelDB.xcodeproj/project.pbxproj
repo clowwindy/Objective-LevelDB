@@ -1234,7 +1234,7 @@
 					"\"$(SRCROOT)/leveldb-library\"",
 				);
 				MACH_O_TYPE = staticlib;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
