@@ -1260,7 +1260,7 @@
 				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SEPARATE_STRIP = YES;
-				SKIP_INSTALL = NO;
+				SKIP_INSTALL = YES;
 				STRIP_STYLE = debugging;
 			};
 			name = Debug;
@@ -1302,7 +1302,7 @@
 				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SEPARATE_STRIP = YES;
-				SKIP_INSTALL = NO;
+				SKIP_INSTALL = YES;
 				STRIP_STYLE = debugging;
 			};
 			name = Release;
