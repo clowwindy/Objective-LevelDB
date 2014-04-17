@@ -59,6 +59,64 @@
 		626B7051177AB5E100612B96 /* status.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F9B177AB5E100612B96 /* status.cc */; };
 		626B7065177AB9E800612B96 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 626B7059177AB9D600612B96 /* libc++.dylib */; };
 		626B7069177AB9E800612B96 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 626B705D177AB9D600612B96 /* libstdc++.dylib */; };
+		62C8ED7418FE88D7007BCAC4 /* memenv_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EDE177AB5E000612B96 /* memenv_test.cc */; };
+		62C8ED7518FE88D7007BCAC4 /* filter_block_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F5E177AB5E100612B96 /* filter_block_test.cc */; };
+		62C8ED7618FE88D7007BCAC4 /* table_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F6C177AB5E100612B96 /* table_test.cc */; };
+		62C8ED7718FE88D7007BCAC4 /* arena_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F75177AB5E100612B96 /* arena_test.cc */; };
+		62C8ED7818FE88D7007BCAC4 /* bloom_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F78177AB5E100612B96 /* bloom_test.cc */; };
+		62C8ED7918FE88D7007BCAC4 /* cache_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F7B177AB5E100612B96 /* cache_test.cc */; };
+		62C8ED7A18FE88D7007BCAC4 /* coding_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F7F177AB5E100612B96 /* coding_test.cc */; };
+		62C8ED7B18FE88D7007BCAC4 /* c_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 626B6E9E177AB5E000612B96 /* c_test.c */; };
+		62C8ED7C18FE88D7007BCAC4 /* corruption_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6E9F177AB5E000612B96 /* corruption_test.cc */; };
+		62C8ED7D18FE88D7007BCAC4 /* db_bench.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EA0177AB5E000612B96 /* db_bench.cc */; };
+		62C8ED7E18FE88D7007BCAC4 /* db_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EA7177AB5E000612B96 /* db_test.cc */; };
+		62C8ED7F18FE88D7007BCAC4 /* dbformat_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EAB177AB5E000612B96 /* dbformat_test.cc */; };
+		62C8ED8018FE88D7007BCAC4 /* filename_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EAF177AB5E000612B96 /* filename_test.cc */; };
+		62C8ED8118FE88D7007BCAC4 /* log_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EB5177AB5E000612B96 /* log_test.cc */; };
+		62C8ED8218FE88D7007BCAC4 /* skiplist_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EBF177AB5E000612B96 /* skiplist_test.cc */; };
+		62C8ED8318FE88D7007BCAC4 /* version_edit_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EC7177AB5E000612B96 /* version_edit_test.cc */; };
+		62C8ED8418FE88D7007BCAC4 /* version_set_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6ECB177AB5E000612B96 /* version_set_test.cc */; };
+		62C8ED8518FE88D7007BCAC4 /* write_batch_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6ECF177AB5E000612B96 /* write_batch_test.cc */; };
+		62C8ED8618FE88D7007BCAC4 /* builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6E99177AB5E000612B96 /* builder.cc */; };
+		62C8ED8718FE88D7007BCAC4 /* c.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6E9C177AB5E000612B96 /* c.cc */; };
+		62C8ED8818FE88D7007BCAC4 /* db_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EA1177AB5E000612B96 /* db_impl.cc */; };
+		62C8ED8918FE88D7007BCAC4 /* db_iter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EA4177AB5E000612B96 /* db_iter.cc */; };
+		62C8ED8A18FE88D7007BCAC4 /* dbformat.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EA8177AB5E000612B96 /* dbformat.cc */; };
+		62C8ED8B18FE88D7007BCAC4 /* filename.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EAC177AB5E000612B96 /* filename.cc */; };
+		62C8ED8C18FE88D7007BCAC4 /* leveldb_main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EB0177AB5E000612B96 /* leveldb_main.cc */; };
+		62C8ED8D18FE88D7007BCAC4 /* log_reader.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EB2177AB5E000612B96 /* log_reader.cc */; };
+		62C8ED8E18FE88D7007BCAC4 /* log_writer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EB6177AB5E000612B96 /* log_writer.cc */; };
+		62C8ED8F18FE88D7007BCAC4 /* memtable.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EB9177AB5E000612B96 /* memtable.cc */; };
+		62C8ED9018FE88D7007BCAC4 /* repair.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EBC177AB5E000612B96 /* repair.cc */; };
+		62C8ED9118FE88D7007BCAC4 /* table_cache.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EC1177AB5E000612B96 /* table_cache.cc */; };
+		62C8ED9218FE88D7007BCAC4 /* version_edit.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EC4177AB5E000612B96 /* version_edit.cc */; };
+		62C8ED9318FE88D7007BCAC4 /* version_set.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EC8177AB5E000612B96 /* version_set.cc */; };
+		62C8ED9418FE88D7007BCAC4 /* write_batch.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6ECC177AB5E000612B96 /* write_batch.cc */; };
+		62C8ED9518FE88D7007BCAC4 /* memenv.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EDC177AB5E000612B96 /* memenv.cc */; };
+		62C8ED9618FE88D7007BCAC4 /* port_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F4C177AB5E100612B96 /* port_posix.cc */; };
+		62C8ED9718FE88D7007BCAC4 /* block.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F55177AB5E100612B96 /* block.cc */; };
+		62C8ED9818FE88D7007BCAC4 /* block_builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F58177AB5E100612B96 /* block_builder.cc */; };
+		62C8ED9918FE88D7007BCAC4 /* filter_block.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F5B177AB5E100612B96 /* filter_block.cc */; };
+		62C8ED9A18FE88D7007BCAC4 /* format.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F5F177AB5E100612B96 /* format.cc */; };
+		62C8ED9B18FE88D7007BCAC4 /* iterator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F62177AB5E100612B96 /* iterator.cc */; };
+		62C8ED9C18FE88D7007BCAC4 /* merger.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F65177AB5E100612B96 /* merger.cc */; };
+		62C8ED9D18FE88D7007BCAC4 /* table.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F68177AB5E100612B96 /* table.cc */; };
+		62C8ED9E18FE88D7007BCAC4 /* table_builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F6A177AB5E100612B96 /* table_builder.cc */; };
+		62C8ED9F18FE88D7007BCAC4 /* two_level_iterator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F6D177AB5E100612B96 /* two_level_iterator.cc */; };
+		62C8EDA018FE88D7007BCAC4 /* arena.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F72177AB5E100612B96 /* arena.cc */; };
+		62C8EDA118FE88D7007BCAC4 /* bloom.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F76177AB5E100612B96 /* bloom.cc */; };
+		62C8EDA218FE88D7007BCAC4 /* cache.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F79177AB5E100612B96 /* cache.cc */; };
+		62C8EDA318FE88D7007BCAC4 /* coding.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F7C177AB5E100612B96 /* coding.cc */; };
+		62C8EDA418FE88D7007BCAC4 /* comparator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F80177AB5E100612B96 /* comparator.cc */; };
+		62C8EDA518FE88D7007BCAC4 /* crc32c.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F82177AB5E100612B96 /* crc32c.cc */; };
+		62C8EDA618FE88D7007BCAC4 /* env.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F86177AB5E100612B96 /* env.cc */; };
+		62C8EDA718FE88D7007BCAC4 /* env_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F88177AB5E100612B96 /* env_posix.cc */; };
+		62C8EDA818FE88D7007BCAC4 /* filter_policy.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F8B177AB5E100612B96 /* filter_policy.cc */; };
+		62C8EDA918FE88D7007BCAC4 /* hash.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F8D177AB5E100612B96 /* hash.cc */; };
+		62C8EDAA18FE88D7007BCAC4 /* histogram.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F90177AB5E100612B96 /* histogram.cc */; };
+		62C8EDAB18FE88D7007BCAC4 /* logging.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F93177AB5E100612B96 /* logging.cc */; };
+		62C8EDAC18FE88D7007BCAC4 /* options.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F97177AB5E100612B96 /* options.cc */; };
+		62C8EDAD18FE88D7007BCAC4 /* status.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6F9B177AB5E100612B96 /* status.cc */; };
 		62DB80B4177ABF92001C6D72 /* c_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 626B6E9E177AB5E000612B96 /* c_test.c */; };
 		62DB80B5177ABF92001C6D72 /* corruption_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6E9F177AB5E000612B96 /* corruption_test.cc */; };
 		62DB80B6177ABF92001C6D72 /* db_bench.cc in Sources */ = {isa = PBXBuildFile; fileRef = 626B6EA0177AB5E000612B96 /* db_bench.cc */; };
@@ -94,6 +152,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		626B6CBE177AB52300612B96 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62C8EDAF18FE88D7007BCAC4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/${PRODUCT_NAME}";
@@ -371,6 +438,7 @@
 		626B6FA0177AB5E100612B96 /* testutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testutil.h; sourceTree = "<group>"; };
 		626B7059177AB9D600612B96 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		626B705D177AB9D600612B96 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		62C8EDB318FE88D7007BCAC4 /* libleveldb copy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libleveldb copy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FDE839177ABCE100405FB5 /* leveldb.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = leveldb.pch; path = LevelDB/leveldb.pch; sourceTree = "<group>"; };
 		D0FD3F511742FD79002B0C07 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		D0FD3F521742FD79002B0C07 /* Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Snapshot.h; sourceTree = "<group>"; };
@@ -400,6 +468,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		62C8EDAE18FE88D7007BCAC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -420,6 +495,7 @@
 			children = (
 				2795DEAE142FAAB9008D9F83 /* LevelDB.app */,
 				626B6CC0177AB52300612B96 /* libleveldb.a */,
+				62C8EDB318FE88D7007BCAC4 /* libleveldb copy.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -959,6 +1035,23 @@
 			productReference = 626B6CC0177AB52300612B96 /* libleveldb.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		62C8ED7218FE88D7007BCAC4 /* leveldb osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62C8EDB018FE88D7007BCAC4 /* Build configuration list for PBXNativeTarget "leveldb osx" */;
+			buildPhases = (
+				62C8ED7318FE88D7007BCAC4 /* Sources */,
+				62C8EDAE18FE88D7007BCAC4 /* Frameworks */,
+				62C8EDAF18FE88D7007BCAC4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leveldb osx";
+			productName = leveldb;
+			productReference = 62C8EDB318FE88D7007BCAC4 /* libleveldb copy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -982,6 +1075,7 @@
 			targets = (
 				2795DEAD142FAAB9008D9F83 /* LevelDB */,
 				626B6CBF177AB52300612B96 /* leveldb */,
+				62C8ED7218FE88D7007BCAC4 /* leveldb osx */,
 			);
 		};
 /* End PBXProject section */
@@ -1075,6 +1169,71 @@
 				626B704D177AB5E100612B96 /* logging.cc in Sources */,
 				626B704F177AB5E100612B96 /* options.cc in Sources */,
 				626B7051177AB5E100612B96 /* status.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62C8ED7318FE88D7007BCAC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C8ED7418FE88D7007BCAC4 /* memenv_test.cc in Sources */,
+				62C8ED7518FE88D7007BCAC4 /* filter_block_test.cc in Sources */,
+				62C8ED7618FE88D7007BCAC4 /* table_test.cc in Sources */,
+				62C8ED7718FE88D7007BCAC4 /* arena_test.cc in Sources */,
+				62C8ED7818FE88D7007BCAC4 /* bloom_test.cc in Sources */,
+				62C8ED7918FE88D7007BCAC4 /* cache_test.cc in Sources */,
+				62C8ED7A18FE88D7007BCAC4 /* coding_test.cc in Sources */,
+				62C8ED7B18FE88D7007BCAC4 /* c_test.c in Sources */,
+				62C8ED7C18FE88D7007BCAC4 /* corruption_test.cc in Sources */,
+				62C8ED7D18FE88D7007BCAC4 /* db_bench.cc in Sources */,
+				62C8ED7E18FE88D7007BCAC4 /* db_test.cc in Sources */,
+				62C8ED7F18FE88D7007BCAC4 /* dbformat_test.cc in Sources */,
+				62C8ED8018FE88D7007BCAC4 /* filename_test.cc in Sources */,
+				62C8ED8118FE88D7007BCAC4 /* log_test.cc in Sources */,
+				62C8ED8218FE88D7007BCAC4 /* skiplist_test.cc in Sources */,
+				62C8ED8318FE88D7007BCAC4 /* version_edit_test.cc in Sources */,
+				62C8ED8418FE88D7007BCAC4 /* version_set_test.cc in Sources */,
+				62C8ED8518FE88D7007BCAC4 /* write_batch_test.cc in Sources */,
+				62C8ED8618FE88D7007BCAC4 /* builder.cc in Sources */,
+				62C8ED8718FE88D7007BCAC4 /* c.cc in Sources */,
+				62C8ED8818FE88D7007BCAC4 /* db_impl.cc in Sources */,
+				62C8ED8918FE88D7007BCAC4 /* db_iter.cc in Sources */,
+				62C8ED8A18FE88D7007BCAC4 /* dbformat.cc in Sources */,
+				62C8ED8B18FE88D7007BCAC4 /* filename.cc in Sources */,
+				62C8ED8C18FE88D7007BCAC4 /* leveldb_main.cc in Sources */,
+				62C8ED8D18FE88D7007BCAC4 /* log_reader.cc in Sources */,
+				62C8ED8E18FE88D7007BCAC4 /* log_writer.cc in Sources */,
+				62C8ED8F18FE88D7007BCAC4 /* memtable.cc in Sources */,
+				62C8ED9018FE88D7007BCAC4 /* repair.cc in Sources */,
+				62C8ED9118FE88D7007BCAC4 /* table_cache.cc in Sources */,
+				62C8ED9218FE88D7007BCAC4 /* version_edit.cc in Sources */,
+				62C8ED9318FE88D7007BCAC4 /* version_set.cc in Sources */,
+				62C8ED9418FE88D7007BCAC4 /* write_batch.cc in Sources */,
+				62C8ED9518FE88D7007BCAC4 /* memenv.cc in Sources */,
+				62C8ED9618FE88D7007BCAC4 /* port_posix.cc in Sources */,
+				62C8ED9718FE88D7007BCAC4 /* block.cc in Sources */,
+				62C8ED9818FE88D7007BCAC4 /* block_builder.cc in Sources */,
+				62C8ED9918FE88D7007BCAC4 /* filter_block.cc in Sources */,
+				62C8ED9A18FE88D7007BCAC4 /* format.cc in Sources */,
+				62C8ED9B18FE88D7007BCAC4 /* iterator.cc in Sources */,
+				62C8ED9C18FE88D7007BCAC4 /* merger.cc in Sources */,
+				62C8ED9D18FE88D7007BCAC4 /* table.cc in Sources */,
+				62C8ED9E18FE88D7007BCAC4 /* table_builder.cc in Sources */,
+				62C8ED9F18FE88D7007BCAC4 /* two_level_iterator.cc in Sources */,
+				62C8EDA018FE88D7007BCAC4 /* arena.cc in Sources */,
+				62C8EDA118FE88D7007BCAC4 /* bloom.cc in Sources */,
+				62C8EDA218FE88D7007BCAC4 /* cache.cc in Sources */,
+				62C8EDA318FE88D7007BCAC4 /* coding.cc in Sources */,
+				62C8EDA418FE88D7007BCAC4 /* comparator.cc in Sources */,
+				62C8EDA518FE88D7007BCAC4 /* crc32c.cc in Sources */,
+				62C8EDA618FE88D7007BCAC4 /* env.cc in Sources */,
+				62C8EDA718FE88D7007BCAC4 /* env_posix.cc in Sources */,
+				62C8EDA818FE88D7007BCAC4 /* filter_policy.cc in Sources */,
+				62C8EDA918FE88D7007BCAC4 /* hash.cc in Sources */,
+				62C8EDAA18FE88D7007BCAC4 /* histogram.cc in Sources */,
+				62C8EDAB18FE88D7007BCAC4 /* logging.cc in Sources */,
+				62C8EDAC18FE88D7007BCAC4 /* options.cc in Sources */,
+				62C8EDAD18FE88D7007BCAC4 /* status.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1311,6 +1470,93 @@
 			};
 			name = Release;
 		};
+		62C8EDB118FE88D7007BCAC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEAD_CODE_STRIPPING = YES;
+				DSTROOT = /tmp/leveldb.dst;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = leveldb/leveldb.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_VERSION = "";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$SOURCE_ROOT/leveldb-library/include",
+					"$SOURCE_ROOT/leveldb-library",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				KEEP_PRIVATE_EXTERNS = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/leveldb-library\"",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
+				PRODUCT_NAME = "leveldb copy";
+				SDKROOT = macosx;
+				SEPARATE_STRIP = YES;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = debugging;
+			};
+			name = Debug;
+		};
+		62C8EDB218FE88D7007BCAC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DSTROOT = /tmp/leveldb.dst;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = leveldb/leveldb.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_VERSION = "";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$SOURCE_ROOT/leveldb-library/include",
+					"$SOURCE_ROOT/leveldb-library",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				KEEP_PRIVATE_EXTERNS = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/leveldb-library\"",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
+				PRODUCT_NAME = "leveldb copy";
+				SDKROOT = macosx;
+				SEPARATE_STRIP = YES;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = debugging;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1337,6 +1583,15 @@
 			buildConfigurations = (
 				626B6CC9177AB52300612B96 /* Debug */,
 				626B6CCA177AB52300612B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62C8EDB018FE88D7007BCAC4 /* Build configuration list for PBXNativeTarget "leveldb osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62C8EDB118FE88D7007BCAC4 /* Debug */,
+				62C8EDB218FE88D7007BCAC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
